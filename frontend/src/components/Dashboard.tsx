@@ -152,8 +152,8 @@ export default function Dashboard({
               </svg>
             </div>
             <div>
-              <div style={{ fontFamily: "'Syne',sans-serif", fontSize: "16px", fontWeight: 800, letterSpacing: "-0.03em", color: "#fff", lineHeight: 1 }}>{tokenName || "Token"}</div>
-              <div style={{ fontSize: "10px", color: "rgba(56,189,248,0.6)", letterSpacing: "0.1em", textTransform: "uppercase", marginTop: "2px" }}>{symbol || "—"} Protocol</div>
+              <div style={{ fontFamily: "'Syne',sans-serif", fontSize: "16px", fontWeight: 800, letterSpacing: "-0.03em", color: "#fff", lineHeight: 1 }}>{tokenName || "Spectra"}</div>
+              <div style={{ fontSize: "10px", color: "rgba(56,189,248,0.6)", letterSpacing: "0.1em", textTransform: "uppercase", marginTop: "2px" }}>{symbol || "—"} Spectra Faucet</div>
             </div>
           </div>
           <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
@@ -169,8 +169,8 @@ export default function Dashboard({
 
           {/* Title */}
           <div style={{ marginBottom: "2.5rem" }}>
-            <h1 style={{ fontFamily: "'Syne',sans-serif", fontSize: "clamp(28px,4vw,40px)", fontWeight: 800, letterSpacing: "-0.04em", color: "#fff", lineHeight: 1, marginBottom: "8px" }}>Token Dashboard</h1>
-            <p style={{ fontSize: "14px", color: "rgba(160,200,255,0.5)", letterSpacing: "-0.01em" }}>Claim, transfer and mint {symbol || "tokens"} on Lisk Sepolia</p>
+            <h1 style={{ fontFamily: "'Syne',sans-serif", fontSize: "clamp(28px,4vw,40px)", fontWeight: 800, letterSpacing: "-0.04em", color: "#fff", lineHeight: 1, marginBottom: "8px" }}>Spectra Dashboard</h1>
+            <p style={{ fontSize: "14px", color: "rgba(160,200,255,0.5)", letterSpacing: "-0.01em" }}>Claim, transfer and mint {symbol || "tokens"} on Lisk Sepolia . Spectra Faucet</p>
           </div>
 
           {/* Stats */}

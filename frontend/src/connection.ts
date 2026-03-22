@@ -21,10 +21,10 @@ const networks:[AppKitNetwork, ...AppKitNetwork[]] = [
 // 3. create a meta data object
 
 const metadata = {
-  name: "ERCASSIGN",
-  description: "A token Faucet",
-  url: "https://your-app.vercel.app", // update after deploy
-  icons: ["https://your-app.vercel.app/favicon.svg"],
+  name: "Spectra Faucet",
+  description: "Spectra Faucet",
+  url: "https://token-faucet-phi.vercel.app",
+  icons: ["https://token-faucet-phi.vercel.app/favicon.svg"],
 };
 
 //4. create a appkit instance
